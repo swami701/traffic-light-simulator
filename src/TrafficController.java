@@ -9,7 +9,7 @@ public class TrafficController {
     private int sec;
     private int min;
 
-    public void simulateTrafficLight() {
+    public void simulateTrafficSignal() {
         TimerTask timerTask = new TimerTask() {
             @Override
             public void run() {
