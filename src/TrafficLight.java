@@ -1,7 +1,9 @@
-public abstract class TrafficLight {
+public class TrafficLight {
     protected ITrafficLightState currentState;
 
-    public abstract void change();
+    public void change() {
+        currentState.change(this);
+    }
 
     public ITrafficLightState getCurrentState() {
         return currentState;
