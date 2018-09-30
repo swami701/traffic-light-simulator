@@ -1,7 +1,10 @@
 ### Introduction
-This repository contains a simple traffic signal simulation using Java
+This repository contains a simple traffic signal simulation using Java.
 
 ### Class Diagram
+
+![Alt Classdiagram](https://user-images.githubusercontent.com/8969183/46262404-5bdcc880-c533-11e8-8803-7e8f7b8b2b21.png)
+
 
 ### Application Execution Steps
 **Pre-requisites**
